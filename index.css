@@ -1,0 +1,109 @@
+body {
+  background-image: url("IMG/apus.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blue {
+  color: blue;
+}
+.red {
+  color: red;
+}
+
+#title {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: larger;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+span {
+  color: blue;
+}
+#hamburger {
+  width: 35px;
+  height: 30px;
+  cursor: pointer;
+  float: right;
+  margin-right: 15px;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+#exit {
+  width: 20px;
+  float: right;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+li{
+  list-style: none;
+}
+
+#secondary-nav {
+  position: fixed;
+  z-index: 999;
+  width: 150px;
+  right: 0;
+  top: 0;
+  background-color: #20272e;
+  height: 100%;
+  padding: 15px;
+  color: white;
+  display: none;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.style {
+  font-size: 17px;
+  margin-top: 50px;
+}
+#nav-bar {
+  display: grid;
+}
+
+#primary-nav {
+  display: inline-flex;
+  justify-content: space-between;
+  padding-right: 700px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  margin-bottom: 55px;
+}
+
+#move-right {
+  margin-left: 850px;
+  font-weight: bolder;
+}
+
+#float-right {
+  float: right;
+  margin-top: 10px;
+}
+
+a {
+  color: white;
+}
+
+#exercice {
+  display: none;
+}
+#supplementsfoods {
+  display: none;
+}
+
+#antrenament-personalizat-1 {
+  display: none;
+}
+
+#center {
+  text-align: center;
+}
+
+#antrenament-personalizat-2 {
+  display: none;
+}
+#antrenament-personalizat-3 {
+  display: none;
+}
